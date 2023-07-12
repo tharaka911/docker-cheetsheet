@@ -24,11 +24,14 @@ docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=nawwa -e ME_CONFIG
 
 ```
 
-
-### debugging
+#### docker-composer ? 
+### Starting a mongodb container by docker-composer 
 ```sh
-
-
+docker-compose up -d
+```
+### Stoping a mongodb container by docker-composer 
+```sh
+docker-compose down
 ```
 
 
